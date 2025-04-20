@@ -1,19 +1,16 @@
 import './App.css'
 
-import { Marked } from './components/Marked'
-import { ThesisInfo } from './components/ThesisInfo'
+import { BrowserRouter, Route, Routes } from 'react-router'
+
+import { TCC } from './pages/TCC'
 
 export function App() {
   return (
-    <div className="p-4">
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        <ThesisInfo className="md:col-span-1" />
-
-        <Marked
-          url="https://raw.githubusercontent.com/cmhpedro/TCC/refs/heads/main/README.md"
-          className="md:col-span-2"
-        />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<TCC />} />
+        <Route path="/tcc" element={<TCC />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
