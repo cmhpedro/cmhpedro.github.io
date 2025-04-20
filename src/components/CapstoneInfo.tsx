@@ -1,6 +1,6 @@
 import { Card, CardContent } from './ui/card'
 
-export function ThesisInfo({ ...props }: React.ComponentProps<'div'>) {
+export function CapstoneInfo({ ...props }: React.ComponentProps<'div'>) {
   return (
     <div {...props}>
       <Card>
