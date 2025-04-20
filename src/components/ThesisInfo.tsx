@@ -10,11 +10,11 @@ export function ThesisInfo({ ...props }: React.ComponentProps<'div'>) {
             <p>Pedro Henrique Mariano Corrêa</p>
           </div>
           <div>
-            <h3 className="mb-2 text-xl font-semibold">Supervisor</h3>
+            <h3 className="mb-2 text-xl font-semibold">Advisor</h3>
             <p>Paulo Roberto Miranda Meirelles</p>
           </div>
           <div>
-            <h3 className="mb-2 text-xl font-semibold">Co-Supervisor</h3>
+            <h3 className="mb-2 text-xl font-semibold">Co-Advisor</h3>
             <p>José Gonçalves Lima Neto</p>
           </div>
         </CardContent>
