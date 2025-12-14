@@ -6,7 +6,7 @@ export function CapstoneLinks({ ...props }: React.ComponentProps<'div'>) {
       <Card>
         <CardContent className="space-y-4">
           <div>
-            <h3 className="mb-2 text-xl font-semibold">Monografia</h3>
+            <h3 className="mb-2 text-xl font-semibold">Capstone Project</h3>
             <a
               href="/monografia.pdf"
               download
