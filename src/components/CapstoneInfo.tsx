@@ -11,11 +11,11 @@ export function CapstoneInfo({ ...props }: React.ComponentProps<'div'>) {
           </div>
           <div>
             <h3 className="mb-2 text-xl font-semibold">Advisor</h3>
-            <p>Paulo Roberto Miranda Meirelles</p>
+            <p>José Gonçalves Lima Neto</p>
           </div>
           <div>
             <h3 className="mb-2 text-xl font-semibold">Co-Advisor</h3>
-            <p>José Gonçalves Lima Neto</p>
+            <p>Paulo Roberto Miranda Meirelles</p>
           </div>
         </CardContent>
       </Card>
